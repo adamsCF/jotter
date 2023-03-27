@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Classroom form 1</title>
+
+
+
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+              crossorigin="anonymous">
+
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+
+
+       <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+       <!-- ///////////////////////////////////////////////////////
+                            header
+       /////////////////////////////////////////////////////////////-->
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                     <a class="navbar-brand" href="#">Navbar</a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                   <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                   </li>
+                                   <li class="nav-item">
+                                          <a class="nav-link" href="#">Link</a>
+                                   </li>
+                                   <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                 data-bs-toggle="dropdown" aria-expanded="false">
+                                                 Dropdown
+                                          </a>
+                                          <ul class="dropdown-menu">
+                                                 <li><a class="dropdown-item" href="#">Action</a></li>
+                                                 <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                 <li>
+                                                        <hr class="dropdown-divider">
+                                                 </li>
+                                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                          </ul>
+                                   </li>
+                                   <li class="nav-item">
+                                          <a class="nav-link disabled">Disabled</a>
+                                   </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                   <input class="form-control me-2" type="search" placeholder="Search"
+                                          aria-label="Search">
+                                   <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                     </div>
+              </div>
+       </nav>
+
+       <!-- ///////////////////////////////////////////////////////
+                     Introduction form
+       /////////////////////////////////////////////////////////////-->
+       <div class="form-section container">
+              <div class="row">
+
+                     <!-- ///////////////// Step indicator ///////////////// -->
+                     <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start mb-5 screen-step">
+                            <div class="big-screen-step">
+                                   <div class="d-flex">
+                                          <div
+                                                 class="circle-content d-flex flex-column justify-content-center align-items-start">
+                                                 <div class="circle-div div-active"></div>
+                                                 <div class="line-div mx-2 div-active"></div>
+                                          </div>
+                                          <p class="m-0">Select campaign type</p>
+                                   </div>
+
+                                   <div class="d-flex">
+                                          <div
+                                                 class="circle-content d-flex flex-column justify-content-center align-items-start">
+                                                 <div class="circle-div div-active"></div>
+                                                 <div class="line-div mx-2 div-active"></div>
+                                          </div>
+                                          <p class="m-0 active">Teaching details</p>
+                                   </div>
+
+                                   <div class="d-flex">
+                                          <div
+                                                 class="circle-content d-flex flex-column justify-content-center align-items-start">
+                                                 <div class="circle-div "></div>
+                                                 <div class="line-div mx-2"></div>
+                                          </div>
+                                          <p class="m-0"> Enter all required supplies needed for your campaign </p>
+                                   </div>
+
+                                   <div class="d-flex">
+                                          <div class="circle-div"></div>
+
+                                          <p class="m-0">Tell us a bit more about your campaign</p>
+                                   </div>
+
+
+
+
+
+
+                            </div>
+
+                            <div class="small-screen-step">
+                                   <p>2 of 4</p>
+                                   <h5>Teaching details</h5>
+                            </div>
+
+                     </div>
+
+                     <!-- /////////// Form ////////////// -->
+                     <div class="col-lg-6">
+                            <div class="form-card">
+                                   <form>
+                                          <h3>Tell us about your teaching</h3>
+
+                                          <div class="mb-4 mt-5">
+                                                 <div class="row">
+                                                        <div class="col-lg-6 mb-4">
+                                                               <label for="disabledSelect"
+                                                                      class="form-label">Region</label>
+                                                               <select id="disabledSelect" class="form-select">
+                                                                      <option>Greater Accra</option>
+                                                                      <option>Central</option>
+                                                                      <option>Western</option>
+                                                                      <option>Northern</option>
+                                                               </select>
+
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                               <label for="exampleInputEmail1" class="form-label">School
+                                                                      District / Location</label>
+                                                               <select id="disabledSelect" class="form-select">
+                                                                      <option>Ghana</option>
+                                                                      <option>Nigeria</option>
+                                                                      <option>Togo</option>
+                                                                      <option>Mali</option>
+                                                               </select>
+                                                               <div class="form-text">
+                                                                      District where the school is located
+                                                               </div>
+                                                        </div>
+                                                 </div>
+
+                                          </div>
+
+                                          <div class="mb-5">
+                                                 <label for="" class="form-label">Name of school</label>
+                                                 <input type="text" class="form-control">
+                                                 <!-- <select id="disabledSelect" class="form-select">
+                                                        <option>Ghana</option>
+                                                        <option>Nigeria</option>
+                                                        <option>Togo</option>
+                                                        <option>Mali</option>
+                                                 </select> -->
+                                          </div>
+
+                                          <div class="mt-4 margin-bottom amount">
+                                                 <label for="" class="form-label">Teacher full name</label>
+                                                 <input type="text" class="form-control">
+                                          </div>
+
+                                          <div class="mt-4 margin-bottom amount">
+                                                 <label for="" class="form-label">Teacher Id</label>
+                                                 <input type="text" class="form-control">
+                                                 <div class="form-text">
+                                                        A valid id number given by government
+                                                 </div>
+                                          </div>
+
+                                          <div class="d-flex justify-content-between">
+                                                 <button class="return-btn"><i class="fas fa-arrow-left"></i></button>
+                                                 <button type="submit" class="btn btn-primary w-50">Continue</button>
+                                          </div>
+                                   </form>
+                            </div>
+                     </div>
+              </div>
+       </div>
+
+
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+              crossorigin="anonymous">
+              </script>
+
+       <script src="/main.js"></script>
+</body>
+
+</html>
