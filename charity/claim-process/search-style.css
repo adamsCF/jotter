@@ -1,0 +1,136 @@
+:root {
+  --primary: #ff5103;
+}
+
+.primary {
+  background: var(--primary);
+}
+
+/* /////////////////////////////////////////////////////////// */
+/* 2 Search Section */
+.search-box-section {
+  /* width: 75%; */
+}
+.search-box-section input {
+  padding-right: 10rem;
+}
+
+.search-box-section .search-content {
+  width: 65%;
+}
+
+.search-box-section button {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.search-box-section .search-result span {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 991px) {
+  .search-box-section .search-content {
+    width: 100%;
+  }
+
+  .search-box-section .w-mmd-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .search-box-section input {
+    padding-right: 5.5rem;
+  }
+
+  .search-box-section button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* /////////////////////////////////////////////////////////// */
+/* 3 Featured Charities */
+.feature-non-profit-section .non-profit-card {
+  width: 270px;
+  height: 300px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+}
+.feature-non-profit-section .circle-rounded {
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.feature-non-profit-section .circle-rounded img {
+  width: 65px;
+  height: 65px;
+  filter: grayscale(100%);
+}
+.feature-non-profit-section .non-profit-card p {
+  display: -webkit-box;
+  max-width: 150px;
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 18px;
+  font-family: var(--font-fam-inter);
+  font-size: 15px;
+  color: #3f3f3f;
+}
+.feature-non-profit-section .non-profit-card span {
+  font-size: 13px;
+  color: #3f3f3f;
+}
+
+@media (max-width: 1199px) {
+  .feature-non-profit-section .non-profit-card {
+    width: 220px;
+    height: 270px;
+  }
+
+  .feature-non-profit-section .circle-rounded {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 991px) {
+  .feature-non-profit-section .non-profit-card {
+    width: 166px;
+    height: 230px;
+    margin: 0 0.5rem 1rem 0;
+  }
+
+  /* .feature-non-profit-section .circle-rounded {
+    height: 120px;
+    width: 120px;
+  } */
+}
+
+@media (max-width: 767px) {
+  .justify-content-sx-center {
+    justify-content: center;
+  }
+
+  .feature-non-profit-section .non-profit-card {
+    width: 215px;
+    height: 230px;
+  }
+}
+
+@media (max-width: 469px) {
+  .feature-non-profit-section .non-profit-card {
+    width: 190px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 469px) {
+  .feature-non-profit-section .non-profit-card {
+    width: 270px;
+    height: 230px;
+  }
+}

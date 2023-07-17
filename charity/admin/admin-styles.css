@@ -1,0 +1,105 @@
+
+.admin-section .side-bar-nav {
+  width: 300px;
+}
+
+.admin-section .border-container {
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
+
+.admin-section .img-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.admin-section .analysis-card-body {
+  width: 450px;
+  height: 279px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
+
+.gap-xm-3 {
+  gap: 1rem !important;
+}
+
+.p-2-5 {
+  padding: 0.7rem;
+}
+
+.fz-14px {
+  font-size: 14px;
+}
+
+.analysis-section-1 .claimed-charity td {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.analysis-section-1 .withdraw-request td {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.analysis-section-3 .transaction-request td {
+  max-width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.charity-container .charity-claimed-table th {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.charity-claimed-table-status-img {
+width: 25px;
+height: 25px;
+}
+
+.analysis-section-1 .status-card {
+  width: 70px;
+  height: 20px;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+@media (max-width: 1444px) {
+  .analysis-one-container {
+    flex-direction: column;
+  }
+.admin-section .border-container {
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
+
+.admin-section .img-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+}
+  .claim-card {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1428px) {
+  .analysis-section-3 .transaction-request td {
+    max-width: none;
+  }
+}

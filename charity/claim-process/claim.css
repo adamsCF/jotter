@@ -1,0 +1,41 @@
+:root {
+  --primary: #ff5103;
+}
+
+.primary {
+  background: var(--primary);
+}
+
+.bg-grey {
+  background: var(--grey-100, rgba(209, 209, 209, 0.3));
+}
+
+.vh-100 {
+}
+
+.claim-form-container {
+  width: 714px;
+  /* height: 800px; */
+  /* height: fit-content; */
+}
+
+.claim-form-container form input {
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.claim-form-container form select {
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.claim-form-container form .upload-box {
+  border: 1px dashed rgba(128, 128, 128, 0.164);
+  border-radius: 0.5rem;
+  text-align: center;  
+}
+
+@media (max-width: 660px) {
+  .px-m {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}

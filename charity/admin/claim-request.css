@@ -1,0 +1,10 @@
+
+.admin-section .side-bar-nav {
+  width: 300px;
+}
+
+.admin-section .border-container {
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
