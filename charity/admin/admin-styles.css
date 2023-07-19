@@ -99,7 +99,7 @@ height: 25px;
 }
 
 @media (max-width: 1428px) {
-  .analysis-section-3 .transaction-request td {
+/* .transaction-request td {
     max-width: none;
-  }
+  } */
 }

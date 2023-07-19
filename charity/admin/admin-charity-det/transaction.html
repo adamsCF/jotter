@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Crowdfrica Jotter</title>
+
+
+
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+              crossorigin="anonymous">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+       <!-- ///////////////////////////////////////////////////////
+                                   Dashboard 
+                     /////////////////////////////////////////////////////////////-->
+       <div class="container-fluid px-0 admin-section">
+              <div class="d-flex vh-100">
+                     <div class="side-bar-nav bg-black px-3">
+                            <h1 class="m-0 text-white">Side Bar</h1>
+                     </div>
+
+                     <!-- ///////// ///////////////////  Main Body  /////////////////////////////////////////////-->
+                     <div class="main-body flex-fill overflow-y-scroll">
+
+                            <!-- ///////// ////////////  Main Body Nav /////////////////////////////////////////////-->
+                            <!-- <div class="main-body-nav bg-black">
+                                                 <h1 class="text-white">Body nav</h1>
+                                          </div> -->
+
+                            <!-- ///////// ///////////  Main Body Section /////////////////////////////////////////////-->
+                            <div class="main-body-section p-3">
+
+                                   <!-- ///////// /////////////////////////////Dashboard /////////////////////////////////////////////-->
+                                   <div class="dashboard-section">
+
+                                          <!-- ///////// //////////////////////////// charity top nav /////////////////////////////////////////////-->
+                                          <div class="admin-min-nav d-flex justify-content-center mb-5 mt-5">
+                                                 <div class=" px-3 py-2 ">Dashboard</div>
+                                                 <div class="active-min-nav px-3 py-2">Transactions</div>
+                                                 <div class="px-3 py-2">Charity Details</div>
+                                                 <div class="px-3 py-2">Campaign Details</div>
+                                                 <div class=" px-3 py-2">Payment Details</div>
+                                          </div>
+
+
+
+                                          <!-- ///////// //////////////////////////// charity contents cards /////////////////////////////////////////////-->
+                                          <div class="analysis-section-3 mb-5">
+                                                 <div class=" analysis-card ">
+                                                        <h6 class="mb-1 mt-3">Withdrawal Requests</h6>
+                                                        <div class="analysis-card-body w-100 h-100">
+                                                               <table class="table transaction-request">
+                                                                      <thead>
+                                                                             <tr class="text-muted fz-14px">
+
+                                                                                    <th scope="col"
+                                                                                           class="fw-light date-col">
+                                                                                           Date
+                                                                                    </th>
+                                                                                    <th scope="col" class="fw-light">
+                                                                                           Name</th>
+                                                                                    <th scope="col" class="fw-light">
+                                                                                           Payment method</th>
+                                                                                    <th scope="col" class="fw-light">
+                                                                                           Amount</th>
+                                                                                    <th scope="col" class="fw-light">
+                                                                                           Status</th>
+                                                                             </tr>
+                                                                      </thead>
+                                                                      <tbody>
+                                                                             <tr>
+                                                                                    <th scope="row"
+                                                                                           class="text-muted fs-6 fw-normal">
+                                                                                           01 December, 2023
+                                                                                    </th>
+                                                                                    <td>
+                                                                                           Nana Boateng</td>
+                                                                                    <td>
+                                                                                           Bank - GCB
+                                                                                           0011299984884</td>
+                                                                                    <td>
+                                                                                           $ 1000.00</td>
+                                                                                    <td>
+                                                                                           <div
+                                                                                                  class="fw-light fz-14px bg-danger text-white text-center rounded-5 status-card">
+                                                                                                  processing
+                                                                                           </div>
+                                                                                    </td>
+                                                                             </tr>
+
+                                                                             <tr>
+                                                                                    <th scope="row"
+                                                                                           class="text-muted fs-6 fw-normal">
+                                                                                           18 June, 2023
+                                                                                    </th>
+                                                                                    <td>
+                                                                                           Michael Adams </td>
+                                                                                    <td>
+                                                                                           Bank - FNB
+                                                                                           3324342342384</td>
+                                                                                    <td>
+                                                                                           $ 4,500.00</td>
+                                                                                    <td>
+                                                                                           <div
+                                                                                                  class="fw-light fz-14px bg-danger text-white text-center rounded-5 status-card">
+                                                                                                  processing
+                                                                                           </div>
+                                                                                    </td>
+                                                                             </tr>
+
+
+
+                                                                      </tbody>
+                                                               </table>
+                                                        </div>
+                                                 </div>
+                                          </div>
+
+
+                                          <!-- ///////// //////////////////////////// charity contents cards /////////////////////////////////////////////-->
+                                          <div class="analysis-section-3">
+                                                 <div class=" analysis-card mb-3">
+                                                        <h6 class="mb-1 mt-3">Transactions</h6>
+                                                        <div class="analysis-card-body w-100 h-100">
+                                                               <table class="table transaction-request">
+                                                                      <thead>
+                                                                             <tr class="text-muted fz-14px">
+
+                                                                                    <th scope="col"
+                                                                                           class="fw-light date-col">
+                                                                                           Date
+                                                                                    </th>
+                                                                                    <th scope="col" class="fw-light">
+                                                                                           Name</th>
+                                                                                    <th scope="col" class="fw-light">
+                                                                                           Amount</th>
+                                                                             </tr>
+                                                                      </thead>
+                                                                      <tbody>
+                                                                             <tr>
+                                                                                    <th scope="row"
+                                                                                           class="text-muted fs-6 fw-normal">
+                                                                                           01 December, 2023
+                                                                                    </th>
+                                                                                    <td>
+                                                                                           Kwame</td>
+                                                                                    <td class="text-success">
+                                                                                           $ +10,000.00</td>
+                                                                             </tr>
+
+                                                                             <tr>
+                                                                                    <th scope="row"
+                                                                                           class="text-muted fs-6 fw-normal">
+                                                                                           22 June, 2023
+                                                                                    </th>
+                                                                                    <td>
+                                                                                           Boateng</td>
+                                                                                    <td class="text-danger">
+                                                                                           $ -5000.00</td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                    <th scope="row"
+                                                                                           class="text-muted fs-6 fw-normal">
+                                                                                           22 June, 2023
+                                                                                    </th>
+                                                                                    <td>
+                                                                                           Nana </td>
+                                                                                    <td class="text-danger">
+                                                                                           $ -400.00</td>
+                                                                             </tr>
+
+
+
+
+
+                                                                      </tbody>
+                                                               </table>
+                                                        </div>
+                                                 </div>
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+              </div>
+       </div>
+
+
+
+       <!-- ///////////////////////////////////////////////////////////////////-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+              crossorigin="anonymous">
+              </script>
+
+</body>
+
+</html>

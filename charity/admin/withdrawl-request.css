@@ -16,7 +16,7 @@
   place-items: center;
 }
 .withdraw-request td {
-  max-width: 450px;
+  max-width: 500px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -30,13 +30,33 @@
 }
 
 .withdraw-info-det {
-  /* width: 391px; */
-  height: 355px;
-  flex-shrink: 0;
+  width: 500px;
   border-radius: 5px;
   border: 1px solid #d9d9d9;
 }
 
 .p-2-5 {
   padding: 0.7rem;
+}
+
+.end-30 {
+  right: -25px;
+}
+
+@media (max-width:1570px) {
+  .flex-column-1570 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .withdraw-info-det  {
+    margin-top: 30px;
+  }
+
+  .min-1570 {
+    right: 336px;
+    rotate: z 90deg;
+    top: 246px!important;
+
+  }
 }

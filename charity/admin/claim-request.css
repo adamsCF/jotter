@@ -8,3 +8,14 @@
   border-radius: 5px;
   border: 1px solid #d9d9d9;
 }
+
+.claim-info-det {
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
+
+.field {
+  border-radius: 5px;
+background: rgba(209, 209, 209, 0.30);
+}
