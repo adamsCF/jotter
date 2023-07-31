@@ -9,6 +9,13 @@
   border: 1px solid #d9d9d9;
 }
 
+td {
+  max-width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .claim-info-det {
   width: 500px;
   border-radius: 5px;
@@ -18,4 +25,12 @@
 .field {
   border-radius: 5px;
 background: rgba(209, 209, 209, 0.30);
+}
+
+.layer {
+      background: #00000073;
+}
+
+.claim-pop-card {
+  height: fit-content;
 }

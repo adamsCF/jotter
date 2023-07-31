@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Crowdfrica Jotter</title>
+
+
+
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+              crossorigin="anonymous">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="charity-admin-styles.css">
+</head>
+
+<body>
+
+       <!-- ///////////////////////////////////////////////////////
+                                   Dashboard 
+                     /////////////////////////////////////////////////////////////-->
+       <div class="container-fluid px-0 admin-section">
+              <div class="d-flex vh-100">
+                     <div class="side-bar-nav bg-gold px-3">
+                            <h1 class="m-0 text-white mb-5">Side Bar</h1>
+
+                            <div class=" px-5 py-2 rounded-5 mb-3">
+                                   <a class="text-decoration-none text-white "
+                                          href="/charity-admin/dashboard.html">Dashboard</a>
+                            </div>
+                            <div class="active-side-bar px-5 py-2 rounded-5 mb-3">
+                                   <a class="text-decoration-none text-white " href="/charity-admin/transaction.html">Transactions</a>
+                            </div>
+                            <div class=" px-5 py-2 rounded-5 mb-3">
+                                   <a class="text-decoration-none text-white " href="/charity-admin/requests.html">Requests</a>
+                            </div>
+                            <div class=" px-5 py-2 rounded-5 mb-3">
+                                   <a class="text-decoration-none text-white " href="/charity-admin/campaigns.html">Campaigns</a>
+                            </div>
+                            <div class=" px-5 py-2 rounded-5 mb-3">
+                                   <a class="text-decoration-none text-white " href="/charity-admin/donors.html">Donors</a>
+                            </div>
+                            <div class=" px-5 py-2 rounded-5 mb-3">
+                                   <a class="text-decoration-none text-white " href="/charity-admin/details.html">Details</a>
+                            </div>
+                     </div>
+
+                     <!-- ///////// ///////////////////  Main Body  /////////////////////////////////////////////-->
+                     <div class="main-body flex-fill overflow-y-scroll">
+                     
+                            <!-- ///////// ////////////  Main Body Nav /////////////////////////////////////////////-->
+                            <!-- <div class="main-body-nav bg-black">
+                                                                      <h1 class="text-white">Body nav</h1>
+                                                               </div> -->
+                     
+                            <!-- ///////// ///////////  Main Body Section /////////////////////////////////////////////-->
+                            <div class="main-body-section p-3">
+                     
+                                   <!-- ///////// /////////////////////////////Dashboard /////////////////////////////////////////////-->
+                                   <div class="dashboard-section">
+                     
+                     
+                                          <!-- ///////// //////////////////////////// charity contents cards /////////////////////////////////////////////-->
+                                          <div class="analysis-section-3">
+                                                 <div class=" analysis-card mb-3">
+                                                        <h6 class="mb-1 mt-3">Transactions</h6>
+                                                        <div class="analysis-card-body w-100 h-100">
+                                                               <table class="table transaction-request">
+                                                                      <thead>
+                                                                             <tr class="text-muted fz-14px">
+                     
+                                                                                    <th scope="col" class="fw-light date-col">
+                                                                                           Date
+                                                                                    </th>
+                                                                                    <th scope="col" class="fw-light">
+                                                                                           Name</th>
+                                                                                    <th scope="col" class="fw-light">
+                                                                                           Amount</th>
+                                                                             </tr>
+                                                                      </thead>
+                                                                      <tbody>
+                                                                             <tr>
+                                                                                    <th scope="row" class="text-muted fs-6 fw-normal">
+                                                                                           01 December, 2023
+                                                                                    </th>
+                                                                                    <td>
+                                                                                           Kwame</td>
+                                                                                    <td class="text-success">
+                                                                                           $ +10,000.00</td>
+                                                                             </tr>
+                     
+                                                                             <tr>
+                                                                                    <th scope="row" class="text-muted fs-6 fw-normal">
+                                                                                           22 June, 2023
+                                                                                    </th>
+                                                                                    <td>
+                                                                                           Boateng</td>
+                                                                                    <td class="text-danger">
+                                                                                           $ -5000.00</td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                    <th scope="row" class="text-muted fs-6 fw-normal">
+                                                                                           22 June, 2023
+                                                                                    </th>
+                                                                                    <td>
+                                                                                           Nana </td>
+                                                                                    <td class="text-danger">
+                                                                                           $ -400.00</td>
+                                                                             </tr>
+                     
+                     
+                     
+                     
+                     
+                                                                      </tbody>
+                                                               </table>
+                                                        </div>
+                                                 </div>
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+              </div>
+       </div>
+
+
+
+       <!-- ///////////////////////////////////////////////////////////////////-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+              crossorigin="anonymous">
+              </script>
+
+</body>
+
+</html>
